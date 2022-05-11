@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(/Images/waterback.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),url(/Images/waterback.jpg);
     padding-left: 8%;
     background-position: center;
     background-size: cover;
@@ -22,11 +22,11 @@
       display: flex;
       align-items: center;
   }
-  .logo{
-      width:17rem;
+  .logo{ /* Logo top left*/
+      width: 17rem;
       cursor: pointer;
   }
-  .menu{
+  .menu{ /* Menu option top right*/
       width: 30px;
       cursor:pointer;
       padding-left: 100px;
@@ -42,8 +42,11 @@
   }
   nav ul li a{
       text-decoration: none;
-      color: white;
-      font-size: 13px;
+      color: #fcf468;
+      font-size: 1.5em;
+  }
+  nav a:hover{
+    color: white;
   }
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
@@ -51,55 +54,69 @@
 
 /* FOOOTWER */
 
-.footercontainer{
-    padding: 10px;
-    background-color: rgba(0,0,0,.5);
-    margin: auto;
-    
-  }
-  .fow{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .footul{
-    color: whitesmoke;
-    
-}
+ 
 
-  .footer{
-    padding: 0px 0;
-    background-image: url('/Images/icelandhome3.fixed.jpg');
+
+  footer{
+    background-image: linear-gradient(rgba(0,0,0,0),rgb(0, 0, 0)),url('/Images/balckscreen.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  }
-  .footer-col{
+    background-color: rgba(0,0,0,.5);
     width: 100%;
-    flex-direction: row;
-    padding: 100px 0;
-  }
-  .footer-col h3{
-    font-size: 3rem;
-    color: whitesmoke;
-    text-transform: capitalize;
-    margin-bottom: 0px;
-    font-weight: 900;
+    padding: 20px 50px;
+    min-height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
+    flex-direction: column;
+
   }
-  .footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-  }
-  .footer-col ul li a{
-    font-size: 30px;
-    text-transform: capitalize;
-    color: blue;
-    font-weight: 800;
-    color: aqua;
-    padding: 1px;
-  } 
 
+footer .social-icons, footer .linkss{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin:  10px 0;
+flex-wrap: wrap;
+}
+footer .social-icons li, footer .linkss li{
+  list-style: none;
 
+}
+footer .social-icons li a{
+  font-size: 2em;
+  color: #6886D7;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
 
+footer .social-icons li a:hover{
+  transform: translateY(-10px);
+  color: #fff;
+}
+footer .linkss li a{
+  font-size: 1.5em;
+  color: #fcf468;
+  margin: 0 10px;
+  display: inline-block;
+  text-decoration: none;
+}
+footer .linkss li a:hover{
+  color: white;
+
+}
+/* copy thing*/
+footer p{
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
 
 
 
