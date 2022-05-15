@@ -236,10 +236,9 @@ body{
   background-repeat: no-repeat;
 }
 
-img {
-  display: block;
+.img-pj{
   width: 100%;
-  height: auto;
+  height: 30%;
 }
 
 h4,
@@ -254,8 +253,8 @@ font-weight: bold;
 }
 
 .p-pj {
-  margin: 0;
-  color: white;
+color: white;
+margin: 12px 20em;
 }
 
 .btn {
@@ -307,6 +306,9 @@ background-color: (rgba(28,31,87, 0.7),rgba(0,0,0,0.7));
 
 #section-b {
   background-color: (rgba(28,31,87, 0.7),rgba(0,0,0,0.7));
+  display: flex;
+  justify-content: center;
+
 }
 #section-b ul {
   list-style: none;
@@ -316,78 +318,4 @@ background-color: (rgba(28,31,87, 0.7),rgba(0,0,0,0.7));
   background: #fff;
   color: #333;
 }
-
-
-/* Section D / Boxes */
-
-#section-d .box {
-  color: #fff;
-}
-
-#section-d .box:first-child {
-  background: #2690d4;
-}
-
-.pj-footer{
-  background-image: linear-gradient(rgba(0,0,0,0),rgb(0, 0, 0)),url('/Images/black-screen.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: rgba(0,0,0,.5);
-  width: 100%;
-  padding: 20px 50px;
-  min-height:100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-direction: column;
-margin-top: 10em;
-}
-
-footer .social-icons, footer .linkss{
-position: relative;
-display: flex;
-justify-content: center;
-align-items: center;
-margin:  10px 0;
-flex-wrap: wrap;
-}
-footer .social-icons li, footer .linkss li{
-list-style: none;
-
-}
-footer .social-icons li a{
-font-size: 2em;
-color: #6886D7;
-margin: 0 10px;
-display: inline-block;
-transition: 0.5s;
-}
-
-footer .social-icons li a:hover{
-transform: translateY(-10px);
-color: #fff;
-}
-footer .linkss li a{
-font-size: 1.5em;
-color: #fcf468;
-margin: 0 10px;
-display: inline-block;
-text-decoration: none;
-}
-footer .linkss li a:hover{
-color: white;
-
-}
-/* copy thing*/
-footer p{
-color: white;
-text-align: center;
-margin-top: 15px;
-margin-bottom: 10px;
-font-size: 1em;
-}
-
-
 
