@@ -125,7 +125,7 @@ footer p{
       margin-left: 10%;
   }
   /*Main heading Welcome*/
-  h1{
+  h5{
       color: #fcf468;
       font-size: 100px;
   }
@@ -283,3 +283,69 @@ background-color: (rgba(28,31,87, 0.7),rgba(0,0,0,0.7));
   color: #333;
 }
 
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Resume*/
+
+
+body {
+  background-color: #191a1d;
+}
+
+h6 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #fcf468;
+}
+
+h7 {
+  font-size: 25px;
+  margin-top: -5px;
+  color: #6886D7;
+}
+
+.p-resume {
+  color: #ccc;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-left: 10px;
+  margin-top: 10px;
+    font-weight: 600;
+}
+
+hr {
+  background-image: linear-gradient(
+    to bottom left,
+    rgb(238, 255, 0) 0,
+    rgb(9, 157, 255) 51%,
+    rgb(25, 22, 150) 65%,
+    #101268 80%
+  );
+  border: 0;
+  height: 10px;
+  width: 30%;
+  margin-left: 0%;
+  border-radius: 100px;
+
+}
+
+.resume {
+  border: 50px solid rgb(255, 0, 0);
+  border-image-source: linear-gradient(
+    to bottom left,
+    rgb(238, 255, 0) 0,
+    rgb(9, 157, 255) 51%,
+    rgb(25, 22, 150) 65%,
+    #101268 80%
+  );
+  border-image-slice: 20;
+  padding: 2em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: flex;
+}
+
+#attribute {
+  height: 350px;
+}
