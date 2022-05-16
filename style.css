@@ -11,7 +11,6 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),url(/Images/waterback.jpg);
     background-position: center;
     background-size: cover;
-    padding-right: 8%;
     box-sizing: border-box;
 }
  
@@ -33,11 +32,14 @@
       list-style: none ;
       display: inline-block;
       margin-left: 60px;
+      padding-right: 20px;
   }
   nav ul li a{
       text-decoration: none;
       color: #fcf468;
       font-size: 1.5em;
+      text-shadow: 0 0 5px rgb(203, 234, 23);
+
   }
   nav a:hover{
     color: white;
@@ -125,38 +127,57 @@ footer p{
       margin-left: 10%;
   }
   /*Main heading Welcome*/
-  h5{
+  h1{
       color: #fcf468;
       font-size: 100px;
+      text-shadow: 0 0 5px rgb(203, 234, 23);
+
+
   }
   /*Card heading*/
   h5{
       color: #fcf468;
       text-shadow: 0 0 5px rgb(203, 234, 23);
       font-size: 40px;
+      
   }
 /*Index text*/
   p{
       color: #fcf468;
       font-size: 20px;
       line-height: 30px;
+      text-shadow: 0 0 5px rgb(203, 234, 23);
+
 
   }
   
   /*INdex button*/
-  button{
-      width: 180px;
-      color:#fcf468;
-      font-size: 17px;
-      padding: 12px 0;
-      background: #6886D7;
-      border: 0;
-      border-radius: 20px;
-      outline: none;
-      margin-top: 30px;
-    font-weight: 900;
-  cursor: pointer;  }
-
+  .button{
+    background-color: #6886D7;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 1em;
+    font-weight: bolder;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  
+  a.button:hover {
+    background-color: #101268;
+  }
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
 
@@ -188,7 +209,7 @@ footer p{
     background-image: linear-gradient(rgba(28,31,87, 0.7),rgba(0,0,0,0.7)),url(/Images/calckuatror.PNG);
 }
 .c4{
-    background-image: linear-gradient(rgba(28,31,87, 0.7),rgba(0,0,0,0.7)),url(/Images/dawn\ \(1\).png);
+    background-image: linear-gradient(rgba(28,31,87, 0.7),rgba(0,0,0,0.7)),url(/Images/dawn\(1\).png);
 
 }
 .card:hover{
@@ -198,10 +219,13 @@ transform: translateY(-10px);
     text-shadow: 0 0 15px #000;
     font-size: 20px;
     color:#fff;
+    text-shadow: 0 0 5px rgb(203, 234, 23);
+
 }
 
 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
-/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Projects Page*/
 
 .project-container-nav{
   width: 100%;
@@ -239,6 +263,8 @@ h4,
 h2,
 h3 {
   color: #fcf468;
+  text-shadow: 0 0 5px rgb(203, 234, 23);
+
 }
 h2, h3{
   font-size: 2em;
@@ -252,6 +278,7 @@ color: white;
 margin: 50px 20em;
 line-height: 1.7em;
 font-size: 1.2em;
+text-shadow: 0 0 5px rgb(203, 234, 23);
 
 }
 
@@ -301,12 +328,15 @@ h6 {
   font-weight: 700;
   color: #fcf468;
   line-height: 100px;
+  text-shadow: 0 0 5px rgb(203, 234, 23);
+
 }
 
 h7 {
   font-size: 2em;
   color: #6886D7;
-
+  text-shadow: 0 0 5px rgb(203, 234, 23);
+  line-height: 100px;
 }
 
 .p-resume {
@@ -371,11 +401,20 @@ h9 {
   color: white;
 align-items: center;
 align-content: center;}
-.title {
-  color: #00d5ff;
+.text-center {
+color: #fcf468;  
+margin-bottom: 100px;
+  justify-self: center;
+  padding-left: 27%;
+  font-size: 3em;
 }
 p.lead {
   color: white;
+  margin-bottom: 100px;
+  width: 50%;
+  justify-self: center;
+  padding-left: 27%;
+
 }
 .scroll-panel {
   padding-top: 50px;
@@ -384,12 +423,74 @@ p.lead {
 #about_col > p {
   padding-top: 70px;
 }
-#about_img {
-  height: 70%;
-  width: 70%;
+.pfp-box {
+padding-left: 10%;
+align-self: center;
+padding-bottom: 100px;
+color: white;
+width: 50%;
+justify-self: center;
+padding-left: 27%;
+
 }
-.about-row{
-  display: flex;
-  justify-items: center;
+  .about-navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+  }
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Projects */
+h9 {
+    font-size: 4rem;
+    margin-top:0;
+    margin-bottom: 0.5em;
+    line-height: 100px;
+    color: #fcf468;
+    text-shadow: 0 0 5px rgb(203, 234, 23);
+
+}
+.project-art {
+  padding: 2em;
+}
+.project-art {
+  width: 58%;
+}
+.project-art {
+  padding: 6rem;
+}
+.project-img{
+  width: 10%;
+  align-self: baseline;
   flex-direction: row;
+  height: 100vh;
 }
+.tour-content{
+  display: flex;
+
+}
+.project-text{
+  padding: 30px;
+  line-height: 38px;
+  color: white;
+  text-shadow: 0 0 5px rgb(203, 234, 23);
+  width: 1000px;
+}
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Interact story */
+
+.inter-img img {
+  width: 60%;
+  object-fit: cover;
+  position: relative;
+  left: 100px;
+  top: 400px;
+}
+
+
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&*/
+/*&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
